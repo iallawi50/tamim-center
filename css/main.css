@@ -1,0 +1,101 @@
+@font-face {
+  font-family: theSans;
+  src: url("../fonts/theSans.ttf");
+}
+
+body {
+  font-family: theSans;
+}
+
+:root {
+  --main: #05877a;
+}
+
+.m-color {
+  color: var(--main);
+}
+.btn-outline-success {
+  color: var(--main);
+  border-color: var(--main);
+}
+
+.form-control:focus {
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.m-bgcolor,
+.btn-check:active + .btn-outline-success,
+.btn-check:checked + .btn-outline-success,
+.btn-outline-success.active,
+.btn-outline-success.dropdown-toggle.show,
+.btn-outline-success:active {
+  background-color: var(--main) !important;
+  color: white;
+}
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: var(--main);
+  border-color: unse;
+}
+
+.btn-check:focus + .btn-outline-success,
+.btn-outline-success:focus {
+  box-shadow: none;
+}
+
+header {
+  background-color: var(--main);
+  min-height: 72px;
+  /* width: 100%; */
+}
+header .logo {
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  header h6 {
+    font-size: 2rem;
+  }
+}
+
+.holder {
+  padding: 0 10px;
+}
+.holder img {
+  width: 150px;
+}
+
+.p-img {
+  padding: 1px;
+}
+
+@media (max-width: 991px), (max-height: 625px) {
+  .total.position-absolute {
+    margin-top: 30px !important;
+    position: relative !important;
+  }
+}
+
+.overly {
+  overflow: hidden;
+}
+
+.overly .layer {
+  border: solid 3px var(--main);
+  color: var(--main);
+  font-size: 30px;
+  transition: 0.5s;
+
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.overly:hover .layer {
+  left: -100%;
+}

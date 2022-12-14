@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مؤسسة تميم للحاسب الآلي</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="imgs/logo.jpg" type="image/x-icon">
+  </head>
+  <body dir="rtl">
+    <header>
+      <div class="container">
+        <div
+          class="d-flex flex-row-reverse justify-content-between align-items-center text-white"
+        >
+          <h6>مؤسسة تميم للحاسب الآلي</h6>
+          <img src="imgs/logo.jpg" class="logo rounded-pill p-3" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <section class="container mt-5">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-4">
+          <div class="mt-4 mb-4">
+            <label for="pages" class="form-label m-color fw-bold fs-5"
+              >عدد الصفحات</label
+            >
+            <input
+              type="number"
+              class="form-control text-center bg-success m-bgcolor fw-bold text-white"
+              id="pages"
+            />
+          </div>
+
+          <div class="mt-4 mb-4 d-flex flex-column">
+            <label for="pages" class="form-label m-color fw-bold fs-5"
+              >لون الطباعة</label
+            >
+            <div>
+              <input
+                type="radio"
+                class="btn-check"
+                name="typeColor"
+                id="black"
+                autocomplete="off"
+                checked
+              />
+              <label class="btn btn-outline-success" for="black"
+                >ابيض واسود</label
+              >
+              <input
+                type="radio"
+                class="btn-check"
+                name="typeColor"
+                id="color"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-success" for="color">ملون</label>
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="typeColor"
+                id="colorsPlus"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-success" for="colorsPlus"
+                >ملون+</label
+              >
+            </div>
+          </div>
+          <div class="mt-4 mb-4 d-flex flex-column">
+            <label for="pages" class="form-label m-color fw-bold fs-5"
+              >جوانب الطباعة</label
+            >
+            <div>
+              <input
+                type="radio"
+                class="btn-check"
+                name="faces"
+                id="oneFace"
+                autocomplete="off"
+                checked
+              />
+              <label class="btn btn-outline-success" for="oneFace">وجه</label>
+              <input
+                type="radio"
+                class="btn-check"
+                name="faces"
+                id="twoFace"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-success" for="twoFace">وجهين</label>
+            </div>
+          </div>
+          <div class="mt-4 mb-4 d-flex flex-column">
+            <label for="pages" class="form-label m-color fw-bold fs-5"
+              >خيارات التغليف</label
+            >
+            <div>
+              <input
+                type="checkbox"
+                class="btn-check"
+                name="spring"
+                id="spring"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-success" for="spring">سلك</label>
+            </div>
+                      <div class="mt-4 mb-4">
+            <label for="copies" class="form-label m-color fw-bold fs-5"
+              >الكمية</label
+            >
+            <input
+              type="number" 
+              class="form-control text-center bg-success m-bgcolor fw-bold text-white"
+              id="copies"
+            />
+          </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-flex flex-wrap position-relative overly">
+          <div class="layer w-100 h-100 bg-white position-absolute">
+            تميم سنتر
+          </div>
+          <div class="holder pt-2 pb-2">
+            <input
+              type="radio"
+              class="btn-check"
+              name="typePage"
+              id="oneOnPage"
+              autocomplete="off"
+              checked
+            />
+            <label class="btn btn-outline-success p-img" for="oneOnPage"
+              ><img src="imgs/1.svg" class="p-1" alt=""
+            /></label>
+          </div>
+          <div class="holder pt-2 pb-2">
+            <input
+              type="radio"
+              class="btn-check"
+              name="typePage"
+              id="twoOnPage"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-success p-img" for="twoOnPage"
+              ><img src="imgs/2.svg" class="p-1" alt=""
+            /></label>
+          </div>
+          <div class="holder pt-2 pb-2">
+            <input 
+              type="radio"
+              class="btn-check"
+              name="typePage"
+              id="fourOnPage"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-success p-img" for="fourOnPage"
+              ><img src="imgs/3.svg" class="p-1" alt=""
+            /></label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="total position-absolute w-100 p-3 m-bgcolor bottom-0 m-auto text-center"
+    >
+      المجموع : 0 ريال
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
