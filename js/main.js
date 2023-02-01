@@ -1,11 +1,11 @@
 // prices
 // *******************************************************
-console.log("Last Updated at : 2022/12/14");
+console.log("Last Updated at : 2023/1/31");
 let price = {
   // BLACK AND WHITE PRICES
   black: {
-    oneFace: 6.5, // ONE FACE ONLY
-    twoFace: 7.5, // TWO FACE
+    oneFace: 7, // ONE FACE ONLY
+    twoFace: 8, // TWO FACE
   },
   color: {
     oneFace: 2.5, // ONE FACE ONLY
