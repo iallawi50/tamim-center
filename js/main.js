@@ -1,6 +1,6 @@
 // prices
 // *******************************************************
-console.log("Last Updated at : 2023/2/20");
+console.log("Last Updated at : 2023/3/5");
 let price = {
   // BLACK AND WHITE PRICES
   black: {
