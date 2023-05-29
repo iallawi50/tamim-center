@@ -4,18 +4,18 @@ console.log("Last Updated at : 2023/3/5");
 let price = {
   // BLACK AND WHITE PRICES
   black: {
-    oneFace: 7, // ONE FACE ONLY
-    twoFace: 8, // TWO FACE
+    oneFace: 9, // ONE FACE ONLY
+    twoFace: 9.5, // TWO FACE
   },
   color: {
-    oneFace: 2.5, // ONE FACE ONLY
-    twoFace: 3, // TWO FACE
+    oneFace: 3, // ONE FACE ONLY
+    twoFace: 4, // TWO FACE
   },
   colorPlus: {
     oneFace: 1.5, // ONE FACE ONLY
     twoFace: 1.5, // TWO FACE
   },
-  spring: 7,
+  spring: 5,
 };
 // *******************************************************
 
