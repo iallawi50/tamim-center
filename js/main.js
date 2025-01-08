@@ -4,8 +4,8 @@ console.log("Last Updated at : 2024/9/1");
 let price = {
   // BLACK AND WHITE PRICES
   black: {
-    oneFace: 6, // ONE FACE ONLY
-    twoFace: 7, // TWO FACE
+    oneFace: 7.5, // ONE FACE ONLY
+    twoFace: 8.5, // TWO FACE
   },
   color: {
     oneFace: 3, // ONE FACE ONLY
